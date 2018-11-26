@@ -1,0 +1,109 @@
+@font-face {
+	font-family: 'loli';
+	src: url('../font/华康少女文字W5(P).ttf');
+}
+html,body {
+	background-color: #101010;
+}
+
+
+.ww .banner img , .pw .banner img{
+	width: 100%;
+	min-width: 750px;
+	text-align: center;
+	max-width: 1920px;
+	display: block;
+	margin: 0 auto;
+}
+
+.banner {
+	width: 100%;
+}
+
+
+.ww .logo ,.pw .logo{
+	display: block;
+	min-width: 150px;
+}
+
+
+.ww .logo img,
+.pw .logo img {
+	/*width: 100%;*/
+	width: 285px;
+	height: 65px;
+	/*float: right;*/
+}
+.brief {
+	position: absolute;
+	top: 300px;
+	/*right: 200px;*/
+	width: 1000px;
+	/*margin: 0 auto;*/
+	left: 50%;
+	margin-left: -500px;
+	
+}
+.first .logo{
+	text-align: right;
+	padding-right: 20px;
+}
+.second .logo{
+	padding-left: 20px;
+}
+
+p.text {
+	/*width: 60%;*/
+	/*height: 150px;*/
+	color: #fff;
+	font-size: 20px;
+	/*overflow: hidden;*/
+	line-height: 40px;
+	margin-top: 50px;
+	/*font-family:'Source-Han-Lighd76bcd40d1a88f';*/
+	font-family:'Source-Han-Lighdaa9d4cb51a88f';
+	padding-right: 20px;
+	
+}
+
+p.fir-text {
+	width: 700px;
+	 margin: 80px auto;
+	 /*margin-left: 100px;*/
+	 text-align: right;
+	 margin-right: 0;
+}
+
+p.sec-text {
+	text-align: left;
+	padding-left: 20px;
+}
+.go_index {
+	color: #fff;
+	font-weight: bold;
+}
+.ww ,.pw{
+	width: 100%;
+	min-width: 750px;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	position: relative;
+	top: -193px;
+}
+
+
+.wrap {
+	max-width: none;
+}
+nav {
+	margin: 0 auto;
+}
+nav a:nth-of-type(3) {
+	background-image: url('../img/btn-filter-hover.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+}
+footer {
+	position: static;
+}

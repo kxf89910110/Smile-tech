@@ -1,0 +1,269 @@
+html,
+body {
+	background-color: #101010;
+	width: 100%;
+	height: 100%;
+}
+
+.banner {
+	width: 100%;
+	height: 531px;
+	position: relative;
+	overflow: hidden;
+	top: -193px;
+}
+
+.banner img {
+	width: 100%;
+	height: 100%;
+}
+
+.banner div {
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.fir-triangle {
+	width: 100%;
+	max-width: 1000px;
+	min-width: 750px;
+	height: 100px;
+	background-color: #000;
+	position: absolute;
+	top: 525px;
+	transform: skewY(5.3deg);
+}
+
+.jobList {
+	width: 100%;
+	max-width: 1000px;
+	min-width: 750px;
+	height: 250px;
+	background-color: white;
+	position: absolute;
+	top: 528px;
+	-webkit-transform: skewY(-5.3deg);
+	-moz-transform: skewY(-5.3deg);
+	-ms-transform: skewY(-5.3deg);
+	-o-transform: skewY(-5.3deg);
+	transform: skewY(-5.3deg);
+	overflow: hidden;
+}
+
+.jobList .box {
+	width: 90%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	-webkit-transform: skewY(5.3deg);
+	-moz-transform: skewY(5.3deg);
+	-ms-transform: skewY(5.3deg);
+	-o-transform: skewY(5.3deg);
+	transform: skewY(5.3deg);
+	background-color: #fff;
+	margin: 20px auto 0;
+}
+
+.jobList .box li {
+	display: block;
+	width: 132px;
+	height: 84px;
+	text-align: center;
+	line-height: 64px;
+	margin-top: 50px;
+	background-image: url('../img/btn-filter.png');
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	letter-spacing: -3px;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+
+.jobList .box li:hover {
+	background-image: url('../img/btn-filter-hover.png') !important;
+	color: #fff !important;
+	cursor: pointer;
+}
+
+.sec-triangle {
+	top: 770px;
+	width: 100%;
+	max-width: 1000px;
+	min-width: 750px;
+	height: 100px;
+	background-color: #000;
+	position: absolute;
+	transform: skewY(5.3deg);
+}
+
+.job-info {
+	width: 100%;
+	min-width: 750px;
+	background-color: #fff;
+	position: relative;
+	-webkit-transform: skewY(-5.3deg);
+	-moz-transform: skewY(-5.3deg);
+	-ms-transform: skewY(-5.3deg);
+	-o-transform: skewY(-5.3deg);
+	transform: skewY(-5.3deg);
+	margin-top: -100px;
+	border: 2px solid black;
+}
+
+.job-info:nth-of-type(1) {
+	margin-top: 54px;
+}
+
+.job-info .triangle {
+	margin-top: 100px;
+	max-width: 1000px;
+	min-width: 750px;
+	width: 100%;
+	height: 100px;
+	background-color: #000;
+	transform: skewY(10.6deg);
+}
+
+.content {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 20px;
+	-webkit-transform: skewY(5.3deg);
+	-moz-transform: skewY(5.3deg);
+	-ms-transform: skewY(5.3deg);
+	-o-transform: skewY(5.3deg);
+	transform: skewY(5.3deg);
+}
+
+.content .position {
+	text-align: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.content .detail {
+	margin: 30px 0 0 100px;
+}
+
+.content .detail h3 {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.content .detail p {
+	font-size: 16px;
+}
+
+.content .post {
+	width: 223px;
+	height: 97px;
+	margin: 50px auto 0;
+}
+
+.content .post:hover {
+	cursor: pointer;
+}
+
+.job-info .content .no_need {
+	width: 100%;
+	height: 400px;
+	line-height: 300px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.popWindow {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+	z-index: 99999;
+}
+
+.popWindow .box {
+	width: 400px;
+	height: 200px;
+	/*	margin: 400px auto 0;*/
+	background-color: #fff;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	border-bottom: 5px solid #000;
+	border-right: 5px solid #000;
+	border-top: 2px solid #000;
+	border-left: 1px solid #000;
+}
+
+.popWindow .box .close {
+	width: 100%;
+	height: 30px;
+	overflow: hidden;
+}
+
+.popWindow .box .close:hover {
+	cursor: pointer;
+}
+
+.popWindow .box .button {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+	right: -13px;
+	top: -13px;
+}
+
+.popWindow .close img {
+	width: 100%;
+	height: 100%;
+}
+
+.popWindow .box .mailLogo {
+	text-align: center;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+.popWindow .mailLogo img {
+	width: 40px;
+	height: 100%;
+}
+
+.popWindow .box .mailAdress,
+.popWindow .item {
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 1.2em;
+}
+
+.popWindow span {
+	color: deepskyblue;
+}
+
+nav a:nth-of-type(4) {
+	background-image: url('../img/btn-filter-hover.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+}

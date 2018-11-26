@@ -1,0 +1,41 @@
+body {
+	background-color: #101010;
+}
+
+.contact {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+	top: -193px;
+	z-index: -1;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	line-height: 50px;
+}
+
+.contact img {
+	width: 100%;
+	height: 100%;
+}
+
+.contact p {
+	width: 980px;
+	position: absolute;
+	bottom: 200px;
+	left: 50%;
+	margin-left: -500px;
+	font-family:'Source-Han-Lighdaa9d4cb51a88f';
+}
+
+nav a:nth-of-type(5) {
+	background-image: url('../img/btn-nav-focus.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+}
+footer {
+	position: static;
+}
